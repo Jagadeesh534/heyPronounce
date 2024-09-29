@@ -1,0 +1,31 @@
+.react-dropdown-select{
+ padding: .5rem 1rem !important;
+font-size: 1.25rem !important;
+border-radius: 0.5em !important;
+}
+.button-warn{
+ padding: .5rem 1rem !important;
+ font-size: 1.25rem !important;
+ border-radius: 0.5em !important;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .animated-icon {
+    animation: pulse 1.5s infinite;
+    color: #3498db; /* You can change the color */
+  }
+  
