@@ -1,10 +1,10 @@
+import CoinFlipper from "./CoinFlipper"
 
-import Pronounce from './Pronounce'
 function App() {
 
   return (
     <>
-   <Pronounce></Pronounce>
+      <CoinFlipper></CoinFlipper>
     </>
   )
 }
